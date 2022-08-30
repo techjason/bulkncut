@@ -426,6 +426,24 @@ h6 {
   background: #5777ba;
 }
 
+
+.red-button{
+  background: #F86A37;
+}
+
+.red-button:hover{
+  background: #C65A33;
+}
+
+.green-button{
+  background: #49EABA;
+}
+
+.green-button:hover{
+  background: #3DC199;
+}
+
+
 #hero .download-btn i {
   font-size: 20px;
   position: absolute;
@@ -1086,6 +1104,16 @@ section {
 @media (max-width: 768px) {
   .contact .php-email-form {
     padding: 15px 0 0 0;
+  }
+
+
+}
+
+@media (max-width: 1200px) {
+
+
+  .column-margin{
+    margin: 40px 0;
   }
 }
 
